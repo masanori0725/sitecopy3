@@ -1,0 +1,69 @@
+/* タブレット向け */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1{
+    font-size: 32px;
+  }
+  .heading h2{
+    font-size: 20px;
+  }
+  .lessons {
+    flex-wrap: wrap;
+  }
+  .lesson{
+    width: 50%;
+  }
+  .footer{
+    text-align: center;
+  }
+  .signup-modal-wrapper{
+    width: 20%;
+  }
+  .login-modal-wrapper{
+    width: 20%;
+  }
+}
+
+/* モバイル向け */
+@media all and (max-width: 670px) {
+  .menu-icon {
+    display: block;
+  }
+  .header-right {
+    display: none;
+  }
+  .top-wrapper h1{
+    font-size: 24px;
+    text-align: left;
+  }
+  .top-wrapper p{
+    font-size: 14px;
+    text-align: left;
+  }
+  .btn-wrapper .btn{
+    width: 100%;
+  }
+  .btn-wrapper p{
+    text-align: center;
+  }
+  .facebook{
+    margin-bottom: 10px;
+  }
+  .lessons {
+    flex-wrap: wrap;
+  }
+  .lesson{
+    width: 100%;
+  }
+  .message-wrapper .btn{
+    width: 100%;
+  }
+  .message{
+    text-align: center;
+  }
+  .signup-modal-wrapper{
+    width: 20%;
+  }
+  .login-modal-wrapper{
+    width: 20%;
+  }
+}
